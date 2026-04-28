@@ -1,0 +1,370 @@
+
+## Project Title:
+
+**Smart Trend Digital - Modern Tech Company Portfolio Website**
+
+## Goal:
+
+Build a **high-trust modern portfolio website** for a tech company named **Smart Trend Digital**.
+The website must look like a premium agency website so visitors instantly feel confident to contact.
+
+We provide:
+
+* Website Development
+* Mobile App Development
+* UI/UX Design
+* SEO
+* Branding
+* Maintenance & Support
+
+We already have some clients and want to showcase trust + professionalism.
+
+---
+
+
+# ✅ UI Style Requirements (Very Important)
+
+Design must be:
+
+* Minimal but modern
+* High-end agency style
+* Smooth hover effects
+* Soft shadows
+* Rounded corners (2xl)
+* Clean typography
+* Strong spacing & layout hierarchy
+* Micro animations (fade, slide, scale)
+* Premium hero section with gradient
+* Dark mode should look extremely clean
+
+
+# ✅ Pages to Build
+
+Create these pages:
+
+### 1. Home Page `/`
+
+Sections:
+
+* Navbar (sticky)
+* Hero section with CTA
+* Services grid
+* Featured projects
+* Client logos / trust section
+* Why choose us section
+* Testimonials
+* Process timeline
+* Pricing preview
+* FAQ section
+* CTA banner
+* Footer
+
+### 2. About Page `/about`
+
+* Company story
+* Mission & vision
+* Team section (optional)
+* Values
+* Stats counters
+
+### 3. Services Page `/services`
+
+* Show all services with details
+* Service detail cards with icons
+* CTA section at bottom
+
+### 4. Projects Page `/projects`
+
+* Filterable projects (Website, App, UI/UX, SEO)
+* Project card with image, category, tags
+* Each project clickable
+
+### 5. Single Project Page `/projects/[slug]`
+
+* Project details
+* Problem / Solution / Result
+* Tech stack used
+* Project screenshots
+* CTA to contact
+
+### 6. Contact Page `/contact`
+
+* Contact form with validation
+* WhatsApp direct button
+* Email click-to-open
+* Google map section
+* Social links
+
+### 7. Blog Page `/blog` (optional)
+
+* Simple blog UI
+* SEO optimized
+
+---
+
+# ✅ Website Features
+
+Must include:
+
+## Navigation
+
+Navbar links:
+
+* Home
+* Services
+* Projects
+* About
+* Contact
+
+Sticky navbar with blur effect.
+
+## Dark/Light Mode
+
+Add toggle switch in navbar.
+Store preference in local storage using next-themes.
+
+## Trust Building UI Elements
+
+Include:
+
+* Client logos section
+* Testimonials section
+* Company stats (Projects done, Clients, Years experience)
+* “Trusted by businesses” section
+* Case studies
+
+## Contact Communication System
+
+Include contact buttons:
+
+* WhatsApp button (floating)
+* Messenger link
+* Email link
+* Phone call link
+* Contact form sends email (or mock integration)
+
+## SEO Optimization
+
+* Meta title & description for all pages
+* OpenGraph tags
+* Sitemap generation
+* Fast loading images using next/image
+
+---
+
+# ✅ UI Components Required
+
+Create reusable components:
+
+* `Navbar.tsx`
+* `Footer.tsx`
+* `ThemeToggle.tsx`
+* `HeroSection.tsx`
+* `ServiceCard.tsx`
+* `ProjectCard.tsx`
+* `TestimonialCard.tsx`
+* `SectionTitle.tsx`
+* `CTASection.tsx`
+* `FAQAccordion.tsx`
+* `StatsCounter.tsx`
+* `ContactForm.tsx`
+* `FloatingWhatsAppButton.tsx`
+
+---
+
+# ✅ Data Handling (Static Data)
+
+Use JSON or TS file for data:
+
+* services data
+* projects data
+* testimonials data
+* FAQs data
+* client logos data
+
+---
+
+# ✅ Design Layout Instructions (Must Follow)
+
+## Homepage Layout UI
+
+### HERO
+
+* Left side: headline + subtitle + CTA buttons
+* Right side: modern graphic illustration (abstract tech)
+* Background gradient + glow effect
+* CTA Buttons:
+
+  * “Get Free Consultation”
+  * “View Projects”
+
+### SERVICES SECTION
+
+* Grid 6 cards
+* Each card has icon + title + short description
+* Hover animation: lift + border glow
+
+### PROJECTS SECTION
+
+* 6 featured projects
+* Card with thumbnail + category tag + view details
+* Filter button (All / Web / App / UIUX / SEO)
+
+### TESTIMONIALS
+
+* Carousel style or grid
+* Trust style design
+
+### PROCESS SECTION
+
+* Timeline UI:
+
+  * Research
+  * Design
+  * Development
+  * Testing
+  * Launch
+  * Support
+
+### FAQ
+
+* Accordion style
+
+### CTA Banner
+
+* Gradient background with big text
+* Button to contact page
+
+---
+
+# ✅ Modern Graphic UI Requirements
+
+Add:
+
+* Abstract background shapes
+* Gradient blobs
+* Animated floating elements
+* Light mode subtle patterns
+* Dark mode glowing neon lines
+
+Use Tailwind + Framer Motion for animations.
+
+---
+
+# ✅ Content (Use These Texts)
+
+Company Name: **Smart Trend Digital**
+
+Hero headline:
+**"We Build Modern Websites & Apps That Grow Your Business"**
+
+Hero subtext:
+Smart Trend Digital is a tech agency specializing in web development, mobile apps, UI/UX, SEO, and digital solutions.
+
+CTA button text:
+
+* Get Free Consultation
+* Explore Our Work
+
+Trust line:
+✅ Trusted by growing businesses & startups
+
+Services list:
+
+1. Website Development
+2. Mobile App Development
+3. UI/UX Design
+4. SEO Optimization
+5. E-Commerce Solutions
+6. Maintenance & Support
+
+Footer contact section:
+
+* Email: [hello@smarttrenddigital.com](mailto:hello@smarttrenddigital.com)
+* Phone: +8801XXXXXXXXX
+* Address: Bangladesh
+* WhatsApp: +8801XXXXXXXXX
+
+---
+
+# ✅ Animation Requirements
+
+Use Framer Motion:
+
+* Fade in sections on scroll
+* Stagger card animations
+* Hover scaling on buttons
+* Navbar slide effect
+* Page transition animation
+
+---
+
+# ✅ Performance Requirements
+
+* Lazy load images
+* Use next/image
+* Lighthouse score should be high
+* Fully responsive (mobile first)
+
+---
+
+# ✅ Output Requirements (Cursor Must Generate)
+
+Cursor must generate:
+
+* Full Next.js project code
+* All pages implemented
+* All components reusable
+* Full data-driven rendering
+* Dark/light mode working
+* Smooth animations
+* SEO meta setup
+* Responsive design
+
+---
+
+# ✅ Extra Must-Have Features
+
+Add these:
+
+* Floating WhatsApp button
+* "Back to top" button
+* Loading skeleton for project page
+* Contact form with success message toast
+* Modern footer with social icons
+
+---
+
+# ✅ Project Example Data
+
+Create at least 8 demo projects like:
+
+* IELTS Learning App
+* E-commerce Website
+* Real Estate Platform
+* Corporate Website
+* Restaurant Booking App
+* SEO Campaign Website
+* UI/UX Dashboard
+* School Management System
+
+Each project includes:
+
+* slug
+* title
+* category
+* short description
+* tech stack
+* image path
+* result section
+
+---
+
+# ✅ Final Instruction to Cursor
+
+Generate full working project.
+Do not leave placeholders like "TODO".
+All UI should be professional and modern.
+Everything must be clean, scalable, and production-ready.
+
+---
